@@ -3,6 +3,9 @@
 ## Overview
 A normalized relational database (3NF) for storing and analyzing high-volume Futures & Options (F&O) trading data from Indian exchanges (NSE, BSE, MCX).
 
+## Note
+Download the dataset from [Kaggle](https://www.kaggle.com/datasets/sunnysai12345/nse-future-and-options-dataset-3m) and place `3mfanddo.csv` in the `data/` folder before running the script.
+
 ## Dataset
 - **Source:** [NSE Future and Options Dataset 3M](https://www.kaggle.com/datasets/sunnysai12345/nse-future-and-options-dataset-3m)
 - **Size:** 2,533,210 rows, 16 columns
