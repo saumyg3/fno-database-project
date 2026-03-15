@@ -145,6 +145,3 @@ For scaling to 10M+ rows in a High-Frequency Trading (HFT) environment:
 
 ## Author
 Saumya Goyal
-
-## License
-MIT
