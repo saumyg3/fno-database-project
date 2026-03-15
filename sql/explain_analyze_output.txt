@@ -1,0 +1,11 @@
+                                                               QUERY PLAN                                                               
+----------------------------------------------------------------------------------------------------------------------------------------
+ Bitmap Heap Scan on trades  (cost=408.37..31917.07 rows=37154 width=56) (actual time=1.470..7.964 rows=37272 loops=1)
+   Recheck Cond: (trade_date = '2019-08-01'::date)
+   Heap Blocks: exact=433
+   ->  Bitmap Index Scan on idx_trades_trade_date  (cost=0.00..399.08 rows=37154 width=0) (actual time=1.402..1.402 rows=37272 loops=1)
+         Index Cond: (trade_date = '2019-08-01'::date)
+ Planning Time: 1.566 ms
+ Execution Time: 9.083 ms
+(7 rows)
+
